@@ -20,7 +20,7 @@ logl2_pass! {
 			",
 			fragment_shader: "
 				void main() {
- 					gl_FragColor = vec4(vec3(gl_FragCoord.z), 1.0);
+					gl_FragColor = vec4(vec3(gl_FragCoord.z), 1.0);
 				}
 			"
 		}
@@ -223,7 +223,7 @@ fn main() {
 				// (view space -> projection space)
 				&[
 					/*X*/ [(2.0*n)/(r-l), 		0f32, 				0f32, 				0f32],
-					/*Y*/ [0f32, 				(2.0*n)/(t-b), 		0f32, 				0f32],
+					/*Y*/ [0f32, 				(2.0*n)/(t-b),		0f32, 				0f32],
 					/*Z*/ [(r+l)/(r-l), 		(t+b)/(t-b), 		-(f+n)/(f-n), 		-1f32],
 					/*T*/ [0f32, 				0f32, 				(-2.0*f*n)/(f-n), 	0f32]
 				]
