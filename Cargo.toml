@@ -1,0 +1,12 @@
+[package]
+name = "rotation_test"
+version = "0.1.0"
+authors = ["Kingsquee <kingsquee@nodev.club>"]
+
+[dependencies.logl2]
+git = "https://gitgud.io/Kingsquee/LOGL2.git"
+branch = "master"
+
+[dependencies]
+sdl2 = "0.30.0"
+nalgebra = "0.13"
